@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    tools:context="com.example.lucky.MainActivity" >
+
+
+<com.example.lucky.LuckyPan 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:layout_centerInParent="true"
+    android:id="@+id/id_LuckyPan">
+    
+</com.example.lucky.LuckyPan>
+
+<ImageView 
+    android:id="@+id/id_start_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:src="@drawable/start"
+    />
+</RelativeLayout>
